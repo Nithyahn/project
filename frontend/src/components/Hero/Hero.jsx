@@ -6,6 +6,7 @@ import starimg from '../../assets/star.png';
 import videoimg from '../../assets/video.jpg';
 import { FaArrowRight } from 'react-icons/fa';
 import ellipse from "../../assets/ellipse.png";
+import splash from '../../assets/splash.png';
 
 const Hero = () => {
   return (
@@ -17,6 +18,7 @@ const Hero = () => {
               <h1 className="text-6xl font-extrabold capitalize mb-6 clash-display">
                 Make The Best <br/>Financial Decisions  
               </h1>
+              <img src={splash} alt="s1" className="absolute top-[-120px] left-[295px] z-50 transform rotate-[0deg]  w-[427px] h-[400px]" />
               <p className=" mb-9 clash-display text-xl text-gray-500  ">
                 Cum Et Convallis Risus Placerat Aliquam, Nuno. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Soclis Arcu Lorem Porttitor.
               </p>
@@ -43,6 +45,8 @@ const Hero = () => {
           <img src={ellipse} alt="Phone" className="relative top-[45px] left-[42px] z-[10px] transform rotate-[5deg] w-[376.57] h-[542.07px] ml-[90px]" />
           <img src={ellipse} alt="Phone" className="absolute top-[-35px] left-[122px] z-[10px] transform rotate-[5deg] w-[376.57] h-[542.07px] ml-[90px]" />
           </div>
+          <img src={splash} alt="s1" className="absolute top-[500px] left-[125px] z-50 transform rotate-[0deg]  w-[427px] h-[300px]" />
+          <img src={splash} alt="s1" className="absolute top-[-40px] left-[525px] z-50 transform rotate-[0deg]  w-[327px] h-[300px]" />
                 <img src={Urifyimg} alt="Phone 1" className="absolute top-[-140px] left-[0px] z-40 transform rotate-[-5deg] w-[669.25px] h-[914.32px]" />
                 <img src={Urifyimg1} alt="Phone 2" className="absolute top-[-92px] left-[165px] z-30 transform rotate-[-5deg] w-[669.59px] h-[924.02px]" />
                 <img src={Urifyimg} alt="Phone 3" className="absolute top-[-25px] left-[320px] z-20 transform rotate-[-5deg] w-[669.75px] h-[924.00px]" /> 
