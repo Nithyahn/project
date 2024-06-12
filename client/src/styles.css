@@ -1,0 +1,17 @@
+/* /client/src/styles.css */
+:root {
+    --background-color: white;
+    --text-color: black;
+  }
+  
+  body.dark-mode {
+    --background-color: black;
+    --text-color: white;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
